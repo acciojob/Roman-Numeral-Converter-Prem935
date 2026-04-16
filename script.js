@@ -11,7 +11,7 @@ function convertToRoman(num) {
 
   //your code here
 	let result = ''
-	for(int i=0;i<Object.keys(obj).length;i++){
+	for(let i=0;i<Object.keys(obj).length;i++){
 		let [symbol, value] = obj[i];
 
 	    while (num >= value) {
@@ -30,4 +30,4 @@ console.log(convertToRoman(36));
 
 
 // do not edit below this line
-// module.exports = convertToRoman
+module.exports = convertToRoman
